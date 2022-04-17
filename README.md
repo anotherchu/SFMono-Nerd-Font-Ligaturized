@@ -8,7 +8,8 @@
 
 ## Install from PKGBUILD
 ```
-git clone https://github.com/thiag0mei/SFMono-Nerd-Font-Ligaturized
-cd SFMono-Nerd-Font-Ligaturized
+mkdir SFMono-Nerd-Font-Ligaturized && cd SFMono-Nerd-Font-Ligaturized
+wget https://raw.githubusercontent.com/thiag0mei/SFMono-Nerd-Font-Ligaturized/main/PKGBUILD
 makepkg -si
+cd ../ && rm -rf SFMono-Nerd-Font-Ligaturized
 ```
