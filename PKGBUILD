@@ -1,5 +1,5 @@
 pkgname=otf-sfmono-nerd-font-ligaturized
-pkgver=1.000
+pkgver=2.000
 pkgrel=1
 pkgdesc='San Francisco Mono NerdFont Ligaturized fonts'
 arch=('any')
@@ -17,18 +17,18 @@ source=("LigaSFMonoNerdFont-Bold.otf::https://github.com/shaunsingh/SFMono-Nerd-
         "LigaSFMonoNerdFont-SemiboldItalic.otf::https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized/blob/main/LigaSFMonoNerdFont-SemiboldItalic.otf?raw=true")
 
 sha256sums=(
-            "b6a2efcb42123269fa7d2aa512c0b493cf26e6f05570c323a9c807bf42224a05"
-            "33d9940e8c9ff0411ec6fbd7bdf8714563148d2df663fb98bb0ffcdfff831d12"
-            "a6837f0daf59633b5891113af797fd18e4df5e5a1a83f9dad8abfc967566f2ae"
-            "81c38358415f7ee22f8a6cfda91eda5e64c6e6cb018216757cc03daa5c51a8bc"
-            "c4529195c45207d6034cded397a9c60be1bfa220722b0a07af89caaf2433e79f"
-            "dcebad08540a639000727e63af0289d397bf6db32b1d9d0fa705c0098c8bf487"
-            "e850124b7a1d04933afb823d499ad4798c22e166edec69217cfe06536bbe524d"
-            "df9dc398fa844d62001d302033e09540fb717a26ba6f9f0076b8b19a9fe2a1d6"
-            "5f19c69acb312f84d740f34928461254e284887d3fdcdc8733309682c1f68c14"
-            "d20e23c75895b4250a28b59b1186301f7c9af1f72cf2a778c3c4398c331cbc8d"
-            "9845d7d7e1b0ffc7fb9512095a01e6ee3d57281f7bd6e056704116e548514bd5"
-            "eede209a576d72e4dac735c502d776946827866a96067d78ec1482cbe621be72"
+        "67926c85d31528aaa23f24c7462b0941fcae91f0d56572966fe46fc0c25033cf"
+        "6b8512156e3799fab02be52ba834b859fa01fe8b8f6d2745986642f778faacde"
+        "329641e6981f8ae7ab070fffb04a4e605d168ce9d7dc9e7e27b1731028767427"
+        "ca2615e09a30f6b51e38d8b3e5c4e2a9366b56398512644ffa3c5da56efa4ca8"
+        "d9dc913e8b7c49c92dee76e3322db579a94c1a8d3af3d07ab81587fb432c7e05"
+        "216668c6122cffb59747824ff11d86d298d3462aa912a1d2173842c82d04e5b0"
+        "a69f62236890fd8b1fbb12b5d7f80e78526c77304fa58bd73358e5f6ace7bc41"
+        "e2bb0036c3de3876817b9f72790ed4680b8eea464c8019714f513fd7792b573a"
+        "80d7ef7cac75d4b04f8e027cff08e4ac757e825e9c4f3d201889dbaab54d9e1a"
+        "9a28d3df6605a6e39274d9f3501193494f739a68d00a15e006f8d875e960a854"
+        "4fc3fbab369400c10c571dcf4419e43cdbd4befc4b1367eb9ee420684a0487e2"
+        "523a1c0beffc26f38fe0eb8882baebdbf0528c7bc4b30ece37deb5f9c3682b11"
 )
 
 package() {
